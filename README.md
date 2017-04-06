@@ -1,6 +1,10 @@
 # install-dod-roots
 
-Installs DoD root certificates into the macOS keychain.
+Installs DoD root certificates into the macOS keychain. To run it, copy and paste this into your terminal:
+
+```bash
+curl -s https://raw.githubusercontent.com/18F/install-dod-roots/master/install.sh | bash -
+```
 
 ## Links
 
