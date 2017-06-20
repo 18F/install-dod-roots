@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-curl -s https://github.com/18F/install-dod-roots/raw/master/dod_root_certificates.zip > dod_root_certs.zip
+curl -s -L https://github.com/18F/install-dod-roots/raw/master/dod_root_certificates.zip > dod_root_certs.zip
 unzip -o -qq dod_root_certs.zip
 cd Certificates_PKCS7_v5.0u1_DoD
 
